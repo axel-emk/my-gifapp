@@ -1,5 +1,3 @@
 # MyGiffApp
 
-Este es mi repositorio del proyecto GifApp de React
-
-yarn dev
+<a href="https://axel-emk.github.io/my-gifapp/">Ver Prototipo</a>
