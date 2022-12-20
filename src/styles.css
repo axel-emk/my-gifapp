@@ -5,10 +5,10 @@
   }
   
   body {
-    padding: 60px;
+    padding: 5px;
   }
   
-  input {
+  /* input {
     background-color: white;
     border-radius: 5px;
     border: 1px solid rgb(97, 32, 158);
@@ -17,7 +17,7 @@
     outline: none;
     padding: 10px 15px;
     width: 100%;
-  }
+  } */
   
   h1{
     font-size: 2.1rem;

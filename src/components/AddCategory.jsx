@@ -24,16 +24,35 @@ export const AddCategory = ({onNewCategory}) => {
     }
 
     return (
-        <form onSubmit={ onSubmit } aria-label="form">
-            <input 
-            type="text" 
-            placeholder="Buscar Gifs"
-            value={ inputValue }
-            onChange= { onInputChange  }
-            />
+        <>
+              
+
+        
+            <form onSubmit={onSubmit} aria-label="form">
+                <div className="input-group mb-3">
+                    <button onClick={onSubmit}  className="btn btn-outline-secondary" type="button" id="button-addon1">Buscar</button>
+                    <input className="input-group flex-nowrap form-control"
+                    type="text"
+                    placeholder="Buscar Gifs"
+                    value={inputValue}
+                    onChange={onInputChange} aria-label="Example text with button addon" aria-describedby="button-addon1"></input>
+                </div>
+            </form>
 
 
-        </form>
+        {/*  */}
+            {/* <form onSubmit={onSubmit} aria-label="form">
+                <input className="input-group flex-nowrap form-control"
+                    type="text"
+                    placeholder="Buscar Gifs"
+                    value={inputValue}
+                    onChange={onInputChange}
+                />
+
+
+            </form> */}
+
+        </>
     )
 }
 
