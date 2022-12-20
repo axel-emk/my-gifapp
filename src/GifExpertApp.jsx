@@ -1,11 +1,12 @@
 import { useState } from "react";
-import { AddCategory, GifGrid } from "./components";
+import { AddCategory, GifGrid,  } from "./components";
+
 
 
 export const GifExpertApp = () => {
 
     // Hooks useState - espacio de memoria (almacenar) para manejar categorias
-    const [categories, setCategories] = useState([ 'One Punch' ]);
+    const [categories, setCategories] = useState([ 'Messi' ]);
 
     // Agregar categoria atravez de setcategoria
     const onAddCategory = (newCategory) => {
@@ -20,8 +21,10 @@ export const GifExpertApp = () => {
 
     return (
         <>
+        
         {/* Título */}
-        <h1>GifExpertApp</h1>           
+        <h1>GifApp</h1>       
+            
 
         {/* Input */}
         <AddCategory 
